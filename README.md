@@ -1,10 +1,10 @@
 # Go WhatsApp Implementation in REST API
 
-This repository contains example of implementation [Rhymen/go-whatsapp](https://github.com/Rhymen/go-whatsapp) package. This example is using a codebase from [dimaskiddo/codebase-go-rest-lite](https://github.com/dimaskiddo/codebase-go-rest-lite).
+This repository contains example of implementation [Rhymen/go-whatsapp](https://github.com/Rhymen/go-whatsapp) package. This example is using a codebase from [https://github.com/fstar-dev/whatsapp-restapi-go].
 
 ### Warning
 
-Since WhatsApp is migrating to Multi-Device support then this repository might be unusable in the future. For Go WhatsApp REST with Multi-Device support please visit the new repository [dimaskiddo/go-whatsapp-multidevice-rest](https://github.com/dimaskiddo/go-whatsapp-multidevice-rest)
+Since WhatsApp is migrating to Multi-Device support then this repository might be unusable in the future. For Go WhatsApp REST with Multi-Device support please visit the new repository
 
 ## Getting Started
 
@@ -32,12 +32,12 @@ export GOPATH=$GOPATH:"`pwd`"
 ```
 * Under the Go Workspace directory create a source directory
 ```
-mkdir -p src/github.com/dimaskiddo/go-whatsapp-rest
+mkdir -p src/github.com/fstar-dev/whatsapp-restapi-go
 ```
 * Move to the created directory and pull codebase
 ```
-cd src/github.com/dimaskiddo/go-whatsapp-rest
-git clone -b master https://github.com/dimaskiddo/go-whatsapp-rest.git .
+cd src/github.com/fstar-dev/whatsapp-restapi-go
+git clone -b master https://github.com/fstar-dev/whatsapp-restapi-go.git .
 ```
 * Run following command to pull dependecies package
 ```
@@ -59,7 +59,7 @@ To build this code to binaries for distribution purposes you can run following c
 make release
 ```
 The build result will shown in build directory
-Or use Docker Images available in dimaskiddo/go-whatsapp-rest
+Or use Docker Images available in fstar-dev/whatsapp-restapi-go
 
 ## API Access
 
@@ -76,10 +76,5 @@ Configuration files are located in *share/etc* directory.
 
 ## Authors
 
-* **Dimas Restu Hidayanto** - *Initial Work* - [DimasKiddo](https://github.com/dimaskiddo)
+* **Dimas Restu Hidayanto** - *Initial Work* - [fstar-dev](https://github.com/fstar-dev)
 
-See also the list of [contributors](https://github.com/dimaskiddo/go-whatsapp-rest/contributors) who participated in this project
-
-## Annotation
-
-You can seek more information for the make command parameters in the [Makefile](https://raw.githubusercontent.com/dimaskiddo/go-whatsapp-rest/master/Makefile)
